@@ -1,0 +1,161 @@
+﻿body {
+   
+    margin:0;
+    z-index: 0;
+    
+}
+header {
+    height:25vh;
+    font-family: 'Rubik Glitch', cursive;
+    padding: 8vh;
+    background: url(https://psv4.userapi.com/c536132/u295113988/docs/d4/2aede11c47fa/1625742625_28-kartinkin-com-p-oboi-na-rab-stol-minimalizm-krasivie-29.jpg?extra=Gp7ZMB-AAEW6TX9DRDZ5HWK9OUfMtyodr6oknn2G2UV4vRHqa45J07z_s1ovv4EktrMTHHANTXH8QzmzB0jUqbuo1Fa4Ps092eMVha5tVeYOlRVOEEjnTCw_VibSTc4xptHht3LUYH0HfyAWRAay2KgF);
+}
+header .header {
+    font-size: 40px;
+    color: white;
+    
+}
+    header .searching {
+        background-color: lightblue;
+        position: absolute;
+        right: 9vw;
+        top: 35vh;
+        height: 5vh;
+        border-radius: 15%;
+        font-family: 'Pacifico', cursive;
+        transition: all 0.7s ease-in-out;
+    }
+        header .searching:hover {
+            transform: scale(1.1);
+        }
+        .container {
+            display: flex;
+        }
+.cover_button {
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+}
+.button {
+    display:flex;
+    margin-top: 5vh;
+    opacity: 0.9;
+    border: 2px solid white;
+    background: linear-gradient(90deg, rgba(84,3,8,1) 0%, rgba(175,6,6,1) 50%, rgba(198,75,54,1) 100%);
+    border-radius: 50%;
+    margin-bottom: 5%;
+    padding:2px 10px 0px 10px;
+    text-align:center;
+    max-height: 50px;
+    max-width: 180px;
+    cursor: pointer;
+    font-size: 140%;
+    font: bold;
+    transition: font-size 3s, color 2s;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.button:hover {
+        color: white;
+        transform: scale(1.1);
+ }
+    .movies {
+        background: no-repeat url(https://psv4.userapi.com/c237031/u295113988/docs/d53/938ab5e2fdbd/1611097220_14-p-fon-s-perekhodom-iz-chernogo-v-belii-15.jpg?extra=qMA2xVKSeCe3nkJHd9UUgqIVh17fgWzw_2PaPe9MaEDszRz6LRhbon0eQ2KsNU-aMdbreFt9f0x_XK8yByG6i31GvfYBIitW5iX9DTMvUxbSJXmg_LzyPofQ0hMQSQy5P5-dIGjSU1Rli8nxwPUBw99W);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        z-index: 1;
+        
+        
+    }
+.movie {
+    width: 240px;
+    padding: 10px;
+    position: relative;
+    
+}
+    .movie img {
+        width: 20vw;
+        border: 10px outset;
+        border-image: linear-gradient(#e7e6ee, #111111) 30;
+        z-index: 2;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+
+.movie__title {
+    font-size: 20px;
+    color: blueviolet;
+    justify-content: center;
+    text-align: center;
+    background: black;
+    border-radius: 10px;
+    padding: 5px;
+    background-size: 25vw;
+    opacity: 0.9;
+    font-family: 'Pacifico', cursive;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+footer {
+    text-align: center;
+   
+}
+    footer img {
+        margin-left: 20px;
+        width: 60vw;
+        margin-bottom: 0;
+    }
+ 
+    .block__text {
+        display: block;
+        position: absolute;
+        overflow: hidden;
+        left: 0;
+        right: 0;
+        top: 25vh;
+        min-width: 22vw;
+        min-height: 30vh;
+        background-color: blueviolet;
+        opacity: 0;
+        border: 8px double black;
+        border-radius: 40% 10%;
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -ms-transition: all 0.7s ease-in-out;
+        -o-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+        z-index: 3;
+    }
+
+.movie:hover .block__text {
+    opacity: 0.9;
+   
+}
+.block__text:hover {
+    transform: scale(1.04);
+}
+.movie:hover {
+    cursor: pointer;
+}
+.movie img:hover {
+    background: black;
+    opacity: 0.9;
+   
+}
+.bigger {
+    transition-duration: 1.3s;
+   
+}
+
+.bigger:hover {
+    transform: scale(1.05);
+}
+.block__text .i {
+    font-family: 'Rubik Wet Paint', cursive;
+    padding: 3vh;
+    font-size: 16px;
+    text-align: center;
+    font: extra-bold 900px;
+    font-style: italic;
+}
