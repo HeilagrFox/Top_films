@@ -1,26 +1,28 @@
-﻿body {
+body {
    
     margin:0;
     z-index: 0;
     
 }
 header {
-    height:25vh;
     font-family: 'Rubik Glitch', cursive;
-    padding: 8vh;
-    background: url(https://psv4.userapi.com/c536132/u295113988/docs/d4/2aede11c47fa/1625742625_28-kartinkin-com-p-oboi-na-rab-stol-minimalizm-krasivie-29.jpg?extra=Gp7ZMB-AAEW6TX9DRDZ5HWK9OUfMtyodr6oknn2G2UV4vRHqa45J07z_s1ovv4EktrMTHHANTXH8QzmzB0jUqbuo1Fa4Ps092eMVha5tVeYOlRVOEEjnTCw_VibSTc4xptHht3LUYH0HfyAWRAay2KgF);
+    background: no-repeat url(https://i.pinimg.com/originals/f5/0d/83/f50d8342cbea21658384bba513f5e193.jpg);
+    background-size: 100% 140%;
+    margin:0;
 }
-header .header {
-    font-size: 40px;
-    color: white;
-    
-}
+    header .header {
+        text-shadow: 5px 5px 3px black;
+        font-size:4vw ;
+        padding-left:0.5vw;
+        color: ghostwhite;
+    }
     header .searching {
         background-color: lightblue;
         position: absolute;
-        right: 9vw;
-        top: 35vh;
-        height: 5vh;
+        right: 3vw;
+        top:1vh;
+
+        min-height: 5vh;
         border-radius: 15%;
         font-family: 'Pacifico', cursive;
         transition: all 0.7s ease-in-out;
@@ -54,21 +56,24 @@ header .header {
     transition: font-size 3s, color 2s;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
     margin-right: 10px;
-    margin-bottom: 0;
+    margin-bottom: 2vh;
 }
 .button:hover {
         color: white;
         transform: scale(1.1);
  }
-    .movies {
-        background: no-repeat url(https://psv4.userapi.com/c237031/u295113988/docs/d53/938ab5e2fdbd/1611097220_14-p-fon-s-perekhodom-iz-chernogo-v-belii-15.jpg?extra=qMA2xVKSeCe3nkJHd9UUgqIVh17fgWzw_2PaPe9MaEDszRz6LRhbon0eQ2KsNU-aMdbreFt9f0x_XK8yByG6i31GvfYBIitW5iX9DTMvUxbSJXmg_LzyPofQ0hMQSQy5P5-dIGjSU1Rli8nxwPUBw99W);
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        z-index: 1;
-        
-        
-    }
+section {
+    background: no-repeat url(https://i.pinimg.com/474x/fb/04/05/fb040572e315ea147bccff02047de8d5.jpg);
+    background-size: 100% auto;
+    margin:0;
+}
+.movies {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 1;
+}
 .movie {
     width: 240px;
     padding: 10px;
@@ -81,6 +86,7 @@ header .header {
         border-image: linear-gradient(#e7e6ee, #111111) 30;
         z-index: 2;
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        
     }
 
 .movie__title {
@@ -154,8 +160,30 @@ footer {
 .block__text .i {
     font-family: 'Rubik Wet Paint', cursive;
     padding: 3vh;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     font: extra-bold 900px;
     font-style: italic;
+}
+#a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Pacifico', cursive;
+    display: none;
+    margin-left: 1vw;
+    font-size: 20px;
+    padding-bottom: 2vh;
+    text-shadow: 25px 5px 3px grey;
+    color: black;
+}
+    #a:hover {
+        text-decoration: underline;
+        
+    }
+.hr-line {
+    height: 10px;
+    margin: 0;
+    border: none;
+    border-top: 1px solid #333;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
